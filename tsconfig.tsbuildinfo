@@ -1,0 +1,28 @@
+{
+  "root": [
+    "./src/background/index.ts",
+    "./src/content/embedded-frames.ts",
+    "./src/content/index.ts",
+    "./src/content/observers.ts",
+    "./src/content/overlay-manager.ts",
+    "./src/content/scanner.ts",
+    "./src/content/selection-tracker.ts",
+    "./src/panel/app.tsx",
+    "./src/panel/main.tsx",
+    "./src/panel/components/addruleform.tsx",
+    "./src/panel/components/checkbox.tsx",
+    "./src/panel/components/ruleitem.tsx",
+    "./src/panel/components/rulelist.tsx",
+    "./src/panel/components/select.tsx",
+    "./src/panel/components/settingspanel.tsx",
+    "./src/panel/hooks/useconfig.ts",
+    "./src/shared/messaging.ts",
+    "./src/shared/rule-matcher.ts",
+    "./src/shared/storage.ts",
+    "./src/shared/types.ts",
+    "./src/tests/rule-matcher.test.ts",
+    "./manifest.config.ts",
+    "./vite.config.ts"
+  ],
+  "version": "5.9.3"
+}
