@@ -1,0 +1,30 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-fog-indigo: #2b3a55;
+  --color-slate-ink: #1b2430;
+  --color-glass-mist: #b8c4d9;
+  --color-reveal-amber: #e8a33d;
+  --color-signal-coral: #e85d4e;
+  --color-paper: #f5f7fa;
+
+  --font-display: 'Space Grotesk', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, 'Courier New', monospace;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  @apply bg-paper text-slate-ink font-body;
+}
+
+/* Side panel scrollbars are always visible in Chrome; keep them slim and on-brand. */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-fog-indigo) transparent;
+}
