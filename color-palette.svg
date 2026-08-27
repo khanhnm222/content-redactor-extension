@@ -1,0 +1,59 @@
+<svg viewBox="0 0 900 380" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      text { font-family: ui-sans-serif, "Segoe UI", Roboto, Arial, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="900" height="380" fill="#F5F7FA"/>
+
+  <text x="40" y="52" font-size="26" font-weight="700" fill="#1B2430">Redactor — Brand Palette</text>
+  <text x="40" y="76" font-size="13" fill="#5B6B84">Frosted glass, with one warm point of light where a reveal happens</text>
+
+  <!-- swatch template: rounded rect + name + hex + role -->
+
+  <!-- 1 Fog Indigo -->
+  <rect x="40" y="110" width="130" height="130" rx="16" fill="#2B3A55"/>
+  <text x="40" y="258" font-size="15" font-weight="700" fill="#1B2430">Fog Indigo</text>
+  <text x="40" y="277" font-size="13" fill="#5B6B84">#2B3A55</text>
+  <text x="40" y="295" font-size="12" fill="#8794A8">Primary /</text>
+  <text x="40" y="310" font-size="12" fill="#8794A8">brand surface</text>
+
+  <!-- 2 Slate Ink -->
+  <rect x="190" y="110" width="130" height="130" rx="16" fill="#1B2430"/>
+  <text x="190" y="258" font-size="15" font-weight="700" fill="#1B2430">Slate Ink</text>
+  <text x="190" y="277" font-size="13" fill="#5B6B84">#1B2430</text>
+  <text x="190" y="295" font-size="12" fill="#8794A8">Text / dark</text>
+  <text x="190" y="310" font-size="12" fill="#8794A8">backgrounds</text>
+
+  <!-- 3 Glass Mist -->
+  <rect x="340" y="110" width="130" height="130" rx="16" fill="#B8C4D9" stroke="#D7DEE9" stroke-width="1"/>
+  <text x="340" y="258" font-size="15" font-weight="700" fill="#1B2430">Glass Mist</text>
+  <text x="340" y="277" font-size="13" fill="#5B6B84">#B8C4D9</text>
+  <text x="340" y="295" font-size="12" fill="#8794A8">The blur</text>
+  <text x="340" y="310" font-size="12" fill="#8794A8">mask itself</text>
+
+  <!-- 4 Reveal Amber -->
+  <rect x="490" y="110" width="130" height="130" rx="16" fill="#E8A33D"/>
+  <text x="490" y="258" font-size="15" font-weight="700" fill="#1B2430">Reveal Amber</text>
+  <text x="490" y="277" font-size="13" fill="#5B6B84">#E8A33D</text>
+  <text x="490" y="295" font-size="12" fill="#8794A8">Active state /</text>
+  <text x="490" y="310" font-size="12" fill="#8794A8">reveal control</text>
+
+  <!-- 5 Signal Coral -->
+  <rect x="640" y="110" width="130" height="130" rx="16" fill="#E85D4E"/>
+  <text x="640" y="258" font-size="15" font-weight="700" fill="#1B2430">Signal Coral</text>
+  <text x="640" y="277" font-size="13" fill="#5B6B84">#E85D4E</text>
+  <text x="640" y="295" font-size="12" fill="#8794A8">Warnings /</text>
+  <text x="640" y="310" font-size="12" fill="#8794A8">destructive actions</text>
+
+  <!-- 6 Paper White -->
+  <rect x="790" y="110" width="70" height="130" rx="16" fill="#F5F7FA" stroke="#D7DEE9" stroke-width="1.5"/>
+  <text x="790" y="258" font-size="14" font-weight="700" fill="#1B2430">Paper</text>
+  <text x="790" y="277" font-size="12" fill="#5B6B84">#F5F7FA</text>
+  <text x="790" y="295" font-size="12" fill="#8794A8">Popup bg</text>
+
+  <line x1="40" y1="332" x2="860" y2="332" stroke="#D7DEE9" stroke-width="1"/>
+  <text x="40" y="355" font-size="12" fill="#5B6B84">Type: Space Grotesk (display) · Inter (UI/body) · IBM Plex Mono (rule values, regex, config)</text>
+  <text x="40" y="372" font-size="12" fill="#8794A8">Usage: Indigo + Ink for chrome/surfaces · Mist for the mask · Amber only for reveal · Coral for warnings only</text>
+</svg>
